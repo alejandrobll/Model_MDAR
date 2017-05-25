@@ -74,8 +74,8 @@ plot4_halo,  = ax4.plot(mymdar.r, vcirc_halo,  label='halo')
 plot4_bulge, = ax4.plot(mymdar.r, vcirc_bulge, label='bulge')
 plot4_tot,   = ax4.plot(mymdar.r, vcirc_tot,   label='total')
 
-ax4.set_xlim(0,100)
-ax4.set_ylim(0,400)
+ax4.set_xlim(0,40)
+ax4.set_ylim(0,300)
 
 #a.plot_galaxy(ax=ax3)
 
