@@ -1,3 +1,10 @@
+#This code was written by Alejandro Benitez-Llambay to illustrate the origin of the
+#Mass discrepancy-acceleration relation (MDAR) within the LCDM framework. A detailed 
+#explanation of the origin of the relation can be found in Navarro et al. (2016).
+#This code was made with pedagogical purposes, and may contain bugs.
+#For questions, suggestions, please rise an issue on github, or email me at:
+#alejandro.b.llambay@durham.ac.uk
+
 from MDAR import mdar
 import numpy as np
 import matplotlib.pyplot as plt
@@ -28,11 +35,11 @@ ax4 = fig.add_axes([0.6,0.3,0.3,0.3])#
 #ax4 = fig.add_axes([0.25,0.30,0.65,0.2])
 
 axcolor = 'lightgoldenrodyellow'
-ax_Mgal      = plt.axes([0.1, 0.02, 0.8, 0.03], facecolor=axcolor)
-ax_Rh        = plt.axes([0.1, 0.06, 0.8, 0.03], facecolor=axcolor)
-ax_m200      = plt.axes([0.1, 0.10, 0.8, 0.03], facecolor=axcolor)
-ax_fmbulge   = plt.axes([0.1, 0.14, 0.8, 0.03], facecolor=axcolor)
-ax_fabulge   = plt.axes([0.1, 0.18, 0.8, 0.03], facecolor=axcolor)
+ax_Mgal      = plt.axes([0.1, 0.02, 0.8, 0.03])#, facecolor=axcolor)
+ax_Rh        = plt.axes([0.1, 0.06, 0.8, 0.03])#, facecolor=axcolor)
+ax_m200      = plt.axes([0.1, 0.10, 0.8, 0.03])#, facecolor=axcolor)
+ax_fmbulge   = plt.axes([0.1, 0.14, 0.8, 0.03])#, facecolor=axcolor)
+ax_fabulge   = plt.axes([0.1, 0.18, 0.8, 0.03])#, facecolor=axcolor)
 
 ax1.set_xlabel(r'$\rm log_{10} \left ( M_{200} / M_{\odot} \right )$')
 ax1.set_ylabel(r'$\rm log_{10} \left ( M_{str} / M_{\odot} \right )$')
